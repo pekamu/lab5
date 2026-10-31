@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinhação</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+
+<body>
+  <div id="caixa">
+    <h1>Adivinhe o número</h1>
+    <p>Estou pensando em um número inteiro de 1 a 100.</p>
+
+    <!-- Entrada do número digitado pelo usuário -->
+    <input type="number" id="palpite" min="1" max="100" placeholder="Seu palpite">
+    <button onclick="verificar()">Tentar</button>
+
+    <p id="resultado"></p>
+    <a href="projects.html">Voltar para projetos</a>
+  </div>
+
+</body>
+</html>
